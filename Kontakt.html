@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- Javascript -->
+    <script defer src="javascript/script.js" type="module"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" class="main-stylesheet" href="css/style.css" />
+
+    <!-- Title and favicon -->
+    <title>Djupvik Hemsida</title>
+
+</head>
+
+<body>
+    <header>
+
+        <h1>Djupvik Hemsida</h1>
+    </header>
+    <div class="flex-container">
+        <input type="checkbox" id="navigation-toggle" />
+        <aside>
+            <nav>
+                <!-- sido menyn-->
+                <ul>
+
+                    <h3>Meny</h3>
+                    </li>
+                    <!--här läggs innehållet in-->
+                    <ul id="article-register">
+                        <li>
+                            <a href="./index.html">Startsidan</a>
+
+                        </li>
+                        <li>
+                            <a href="./Turistmål.html">Turistmål</a>
+
+                        </li>
+                        <li>
+                            <a href="./English.html">English</a>
+
+                        </li>
+                        <li>
+                            <a href="./Historia.html">Historia</a>
+
+                        </li>
+                        <li>
+                            <a href="./Gästplats.html">Gästplats</a>
+
+                        </li>
+                        <li>
+                            <a href="./Medlemsinfo.html">Medlemsinfo</a>
+
+                        </li>
+                        <li>
+                            <a href="./Kontakt.html">Kontakt</a>
+
+                        </li>
+                    </ul>
+
+                    </li>
+
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <article>
+                <header>
+
+                    <!-- här är själav inehållet-->
+                    <h1>DJUPVIKS HISTORIA</h1>
+                </header>
+                <h2>Kontaktuppgifter</h2>
+                <div>
+                    <p>
+                    <address>Hamnfogde Bo Lautin, mobil 0707-920310</address>
+                    </p>
+                    <p>
+                    <address>Djupviks hamnförening</address>
+                    </p>
+                    <p>
+                    <address>c/o Ekholm</address>
+                    </p>
+                    <p>
+                    <address>623 54 Klintehamn</address>
+                    </p>
+                </div>
+                <h2>Kontaktformulär</h2>
+
+                <!--formulär -->
+                <h3>Skicka ett ärende</h3>
+                <form action="" class="fomulär">
+
+                    <p>Vad som angår</p>
+                    <select>
+                        <option value="boat">Båtplats</option>
+                        <option value="member">Medlem </option>
+                        <option value="other">Övrigt</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <input type="text" id="rubrik" placeholder="Rubrik">
+                    <!--input type="text" id="themessege"-->
+                    <br>
+                    <textarea rows="10" cols="50" placeholder="Beskrivning utav ärendet"></textarea>
+
+
+                    <p>Hur vill du bli kontaktad?</p>
+                    <select id="kontactchioce">
+                        <option value="mail">Mail</option>
+                        <option value="telefon">Telefon </option>
+                        <option value="notatall">inte alls</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input id="contactinfo" type="email" placeholder="email" autocomplete="email">
+                    <br>
+                    <br>
+
+                    <input id="button" type="submit" value="Skicka in!">
+                </form>
+            </article>
+        </main>
+    </div>
+</body>
+
+</html>

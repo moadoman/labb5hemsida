@@ -1,0 +1,162 @@
+html,
+body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  color: #444444;
+  font-size: 16px;
+  line-height: 1.7rem;
+  margin: 0;
+  background-color: #f6f6f6;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+  font-variant-ligatures: common-ligatures;
+}
+
+body > header {
+  background-color: #858d66;
+  height: 5.6rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+body > header > * {
+  width: auto;
+  height: inherit;
+  filter: drop-shadow(3px 3px rgba(68, 68, 68, 0.87));
+}
+
+body > header > h1 {
+  margin-top: 0.44em;
+  margin-left: 1rem;
+  font-size: 3rem;
+  filter: none;
+}
+
+#navigation-toggle {
+  display: none;
+}
+
+#navigation-toggle {
+  display: none;
+}
+
+label.navigation-toggle {
+  cursor: pointer;
+  margin-top: 0rem;
+  background: #e2e2e2;
+  font-size: 1.8rem;
+  font-family: var(--font-header);
+  transform: translateY(0%);
+  display: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1.1rem;
+  align-items: stretch;
+  position: relative;
+}
+
+aside,
+main {
+  box-shadow: 0px 0px 50px -3px rgba(196, 196, 196, 0.27);
+  background-color: #fdfcfc;
+  border-radius: 0.8rem;
+}
+
+aside {
+  margin-right: 0.8rem;
+  overflow-y: visible;
+  width: 15%;
+  max-width: 17rem;
+  min-width: 13rem;
+  height: max-content;
+}
+
+nav {
+  margin-top: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 1.5rem;
+  padding-right: 0.8rem;
+}
+
+main {
+  width: 60%;
+  padding: 1.7rem;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: felx;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.normalname {
+  background-color: #e9efdc;
+  height: 380px;
+}
+
+.othername {
+  background-color: #e9efdc;
+  height: 380px;
+}
+
+/* -------tabell medlemsinfo---------*/
+
+.wp-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.wp-table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.wp-table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.wp-table th:first-child,
+.wp-table td:first-child {
+  padding-left: 16px;
+}
+
+.wp-table td,
+.wp-table th {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+
+.wp-table th {
+  font-weight: bold;
+}
+
+.wp-table {
+  font-size: 13px !important;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+}
+
+/*----------------------*/
